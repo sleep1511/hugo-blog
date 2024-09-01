@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>A Quick Overview AWS S3 Bucket</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  
+  <meta name="author" content="Jonathan">
+  
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  <link rel="stylesheet" href=https://bicolor.com/plugins/font-awesome/css/font-awesome.min.css />
+  
+  <link href="https://bicolor.com/scss/style.min.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href=https://bicolor.com/images/favicon.ico type="image/x-icon" />
+  <link rel="icon" href=https://bicolor.com/images/concerns/logo.png type="image/x-icon" />
+</head>
+
+<body>
+    
+<nav class="main-nav navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href=https://bicolor.com/>
+      <img class="logo-main" src=https://bicolor.com/images/concerns/3e2723/logo-rectangle.png alt="logo" />
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-list" id="mainNav">
+      
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href=https://bicolor.com/>Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href=https://bicolor.com/about>About me</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href=https://bicolor.com/contact>Contact</a>
+        </li>
+        
+      </ul>
+      <ul class="main-nav-social">
+        <li>
+          <a href="https://www.facebook.com/mary_astor">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/mary_astor">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.instagram.com/mary_astor">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div id="content">
+        
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 order-2 order-lg-1">
+        <div class="share-now">
+          <a href="#" class="scrol">Share</a>
+          <div class="sociel-icon">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbicolor.com%2fposts%2fs3-overview%2f" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com/intent/tweet?url=https%3a%2f%2fbicolor.com%2fposts%2fs3-overview%2f" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/cws/share?url=https%3a%2f%2fbicolor.com%2fposts%2fs3-overview%2f" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10 order-1 order-lg-2">
+        <article class="single-blog">
+          <a href=https://bicolor.com/tags/AWS class="tag">AWS</a>
+          <p class="title">A Quick Overview AWS S3 Bucket</p>
+          <ul class="meta">
+            <li>
+              By <a href=https://bicolor.com/about>Jonathan</a>
+            </li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              November 11, 2022 - 15 min read
+            </li>
+          </ul>
+          <div class="feature-image">
+            <img src="https://bicolor.com/images/blog/s3-overview/feature.jpeg" alt="banner">
+          </div>
+          <div class="single-blog-content">
+            <p>Chắc bạn đã làm việc và quá quen thuộc với AWS S3, bài viết này mong muốn giúp bạn overview lại kiến thức và có thể tối ưu chi phí hơn khi sử dụng với S3 AWS</p>
+<h4 id="what-is-aws-s3">What is AWS S3?</h4>
+<p>AWS S3 là gì 🤷? AWS S3 (Amazon Simple Storage Service) một dịch vụ lưu trữ file như image, videos, document,&hellip; trên nền tảng AWS Cloud có thể truy cập ở mọi nơi trên thế giới. S3 có tính bảo mật cao, hầu như không lo ngại việc dữ liệu của bạn bị mất (durable), dễ dàng scale, linh hoạt về chi phí sử dụng theo nhu cầu.</p>
+<p>S3 là universal trên toàn thế giới nhưng khi tạo một bucket (bể chứa) S3 bạn phải chọn một region cụ thể.</p>
+<p>Tính nhất quán consistency của S3. Như bạn đã biết, khi upload lên thành công S3 sẽ trả về status 200, khi upload mới một object (tên object chưa tồn tại trong bucket) thì bạn có thể truy xuất ngay được object đó. Nhưng khi upload lên cùng một file name đó lên bucket thì S3 sẽ ghi đè lên object hiện tại và bạn cần phải chờ một khoảng thời gian thì mới lấy được object mới nhất <code>READ AFTER WRITE</code>, nếu object đó được caching đến nhiều CloudFront thì phải mất ít nhất (24h) mới có data mới. Và để CloudFront cập nhật ngay thì phải tạo một validation (có tính phí).</p>
+<p>S3 guarantess! (Remmber 11x9s): tức là khả năng object bị mất hầu như bằng 0 (Đề thi AWS SSA-C02)</p>
+<h4 id="the-basic-of-s3">The basic of S3</h4>
+<p>✅ Dung lượng mỗi file lên đến 5TB</p>
+<p>✅ Không giới hạn lưu trữ</p>
+<p>✅ Hổ trợ torrent (nôm na là công nghệ lưu trữ file lớn ở nhiều nơi, trong quá trình download nếu một source bị đứt quãng thì file vẫn đc tải về qua các source khác)</p>
+<p>✅ Meta data: dùng để lưu trữ một số thông tin thêm cho object, hữu ích trong bài toán lưu trữ shorten url hoặc owrn của file, hay đơn giản chỉ là content-type của media file</p>
+<p>Quyền truy cập mặc định khi tạo một bucket là private. IT Team phải cập nhật Bucket Policy, Access Ctrol list (ACls) để public những object trong bucket đó ra ngoài</p>
+<p>Cấu trúc URL của một S3 object sẽ là (Đề thi AWS SSA-C02):</p>
+<p><code>http://[bucket_name].[region_name].amazon.com</code></p>
+<p><em>Lưu ý: Với các bucket ở region Virginia thì không có region_name.</em></p>
+<h4 id="s3-storage-classes">S3 Storage Classes</h4>
+<p><strong><strong><a href="https://aws.amazon.com/s3/storage-classes/">Performance across the S3 Storage Classes</a></strong></strong> (2022)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>S3 Standard</th>
+<th>S3 Intelligent-Tiering* (recommend)</th>
+<th>S3 Standard-IA (Infrequently Accessed)</th>
+<th>S3 One Zone-IA†</th>
+<th>S3 GlacierInstant Retrieval</th>
+<th>S3 Glacier Flexible Retrieval</th>
+<th>S3 GlacierDeep Archive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Designed for durability</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+<td>99.999999999%(11 9’s)</td>
+</tr>
+<tr>
+<td>Designed for availability</td>
+<td>99.99%</td>
+<td>99.9%</td>
+<td>99.9%</td>
+<td>99.5%</td>
+<td>99.9%</td>
+<td>99.99%</td>
+<td>99.99%</td>
+</tr>
+<tr>
+<td>Availability SLA</td>
+<td>99.9%</td>
+<td>99%</td>
+<td>99%</td>
+<td>99%</td>
+<td>99%</td>
+<td>99.9%</td>
+<td>99.9%</td>
+</tr>
+<tr>
+<td>Availability Zones</td>
+<td>≥3</td>
+<td>≥3</td>
+<td>≥3</td>
+<td>1</td>
+<td>≥3</td>
+<td>≥3</td>
+<td>≥3</td>
+</tr>
+<tr>
+<td>Minimum capacity charge per object</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>128 KB</td>
+<td>128 KB</td>
+<td>128 KB</td>
+<td>40 KB</td>
+<td>40 KB</td>
+</tr>
+<tr>
+<td>Minimum storage duration charge</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>30 days</td>
+<td>30 days</td>
+<td>90 days</td>
+<td>90 days</td>
+<td>180 days</td>
+</tr>
+<tr>
+<td>Retrieval charge</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>per GB retrieved</td>
+<td>per GB retrieved</td>
+<td>per GB retrieved</td>
+<td>per GB retrieved</td>
+<td>per GB retrieved</td>
+</tr>
+<tr>
+<td>First byte latency</td>
+<td>milliseconds</td>
+<td>milliseconds</td>
+<td>milliseconds</td>
+<td>milliseconds</td>
+<td>milliseconds</td>
+<td>minutes or hours</td>
+<td>hours</td>
+</tr>
+<tr>
+<td>Storage type</td>
+<td>Object</td>
+<td>Object</td>
+<td>Object</td>
+<td>Object</td>
+<td>Object</td>
+<td>Object</td>
+<td>Object</td>
+</tr>
+<tr>
+<td>Lifecycle transitions</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>Chú thích:</p>
+<ul>
+<li>
+<p><em>Minimum capacity charge per object: phí tối thiểu theo dung lượng object</em></p>
+</li>
+<li>
+<p><em>Minimum storage duration charge: thời gian lưu trữ tối thiểu</em></p>
+</li>
+<li>
+<p><em>First byte latency: thời gian lấy object</em></p>
+</li>
+</ul>
+<h4 id="s3-charge">S3 Charge</h4>
+<p>Cách tính phí của S3, anh em thường thường không để ý chổ này <em>(vì giá S3 rẻ như cho mà 🤪)</em> nhưng ngoài cách tính phí lưu trữ ra, S3 còn tính thêm nhiều loại phí khác mà đối với các dự án lớn về lưu trữ hay mua bán ảnh thì cần cân đo đong đếm lại 💵</p>
+<h4 id="s3-versioning-bucket">S3 versioning bucket</h4>
+<p>Có những tai nạn như xoá nhầm file,&hellip; thì có thể giúp bạn khôi phục được trong tình huống đó. Bạn không thể enable/disable tuỳ ý được, một khi bạn enable thì muốn disble tính năng này thì bạn không còn cách nào khác là detect nó (bay hết các version đi luôn T_T)</p>
+<h4 id="s3-object-lock">S3 Object lock</h4>
+<p>Bạn có thể sử dụng S3 Object lock để lưu trữ object với chế độ <code>write one, read many (WORM)</code>. Tức là chỉ upload lên một lần và sử dụng, nhằm ngăn chặn ai đó chỉnh sửa hoặc xoá file đi.</p>
+<p>S3 Object lock có 2 mode:</p>
+<ol>
+<li>
+<p>Governance mode (quản trị): user ko thể override hoặc modify, có thể cấp quyền cho user để xoá và update</p>
+</li>
+<li>
+<p>Compliance Mode (tuân thủ nghiêm ngặc): Là mode nghiêm ngặc hơn govermance không thể xoá ngay cả root user, không thể thay đổi mode này được</p>
+</li>
+</ol>
+<p>Ủa vậy thì khi nào mới được xoá, lỡ tay setting thì bó tay à 🤔? → Khi đã hết hạn <a href="https://aws.amazon.com/blogs/storage/how-to-manage-retention-periods-in-bulk-using-amazon-s3-batch-operations/">Retention Previod</a> thì bạn có thể xoá đi nhé</p>
+<h4 id="s3-replicate-bucket">S3 replicate bucket</h4>
+<p>Một lưu ý nhỏ là để sử dụng option này thì bắt buộc bucket source và bucket destination đều phải bật mode versionning nhé. Nếu không thì khi setting thì nó sẽ có alert để bật versioning của bucket lên.</p>
+<h4 id="s3-life-cycle">S3 Life cycle</h4>
+<p>♻️</p>
+<h4 id="s3-transfer-acceleration">S3 Transfer Acceleration</h4>
+<p>Mục đích tăng tốc độ upload. Sử dụng hạ tầng Edge Location,</p>
+<p><a href="https://www.youtube.com/watch?v=mt0YAd6kB7k">Step by step at h</a></p>
+<h4 id="encryption-s3">Encryption S3</h4>
+<p>Encryption S3 là dạng mã hoá ổ cứng vật lý trên máy chủ S3. Đối với những dữ liệu quan trọng thuộc tổ chức lớn hay chính phủ chẳng hạn, thì dù AWS hay bất kỳ dịch vụ cloud nào khác có đảm bảo đến đâu thì họ cũng không thể hoàn toàn tin tưởng S3. S3 cũng là một compute vật lý vậy nếu có ai đó lấy được được ổ cứng đó thì sao? Không gì là không thể. S3 Encryption sinh ra để giải quyết bài toán đó của khách hàng.</p>
+<p>Encryption at Rest: mã hoá đầu cuối.</p>
+<ul>
+<li>SSE-S3: bạn tin tưởng và để S3 mã hoá và tự quản lý</li>
+<li>SSE-KMS: dịch vụ mã hoá riêng của AWS</li>
+<li>SSE-C with customer provider key: user cung cấp key để mã hoá. Không có trên AWS console mà sử dụng AWS CLI, SDK (Software Development Kit) để dùng.</li>
+</ul>
+<p>Client Side Encryption: Mình tự mã hoá trước khi upload và tự giải mã sau khi lấy về</p>
+<p>2 level mã hoá là bucket và object</p>
+<h4 id="multipart-upload">Multipart upload</h4>
+<p>Làm sao để upload một file với dung lượng lớn cả 100MB cả Gb lên bucket? S3 Multipart upload sẽ giúp chúng ta giải quyết được điều đó.
+Nôm na là AWS sẽ chia các file thành các phần (part) nhỏ để upload lên và nối các part đó thành một file hoàn chỉnh khi tất cả đã hoàn thành upload.
+Ngoài ra S3 còn hổ trợ cơ chế parallelize upload, giúp chúng ta upload bằng nhiều thread cùng một lúc, giảm thời gian chờ, bạn có thể thiết kế một background job để cải thiện UI/UX, tốc độ upload để tạo thiện cảm trong mắt người dùng.😜</p>
+<p>Bạn có thể tham khảo bài <a href="https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Faws.plainenglish.io%2Foptimize-your-aws-s3-performance-27b057f231a3">lab</a> này</p>
+<p>Một số điểm nhò cần lưu ý:</p>
+<ul>
+<li>Trước tiên bạn phải cài AWS CLI để sử dụng tính năng này</li>
+<li>Mỗi part ít nhất 5Mb, tuy nhiên part cuối cùng có thể nhỏ hơn</li>
+</ul>
+<p>Ngược lại với Multipart upload là <strong>S3 byte-range fetches</strong> giúp việc tải từng part tăng perfomance (cũng hỗ trợ parallelize) khi download</p>
+<h4 id="s3-perfomance">S3 Perfomance</h4>
+<h5 id="s3-prefix">S3 Prefix</h5>
+<h4 id="summary">Summary</h4>
+<p>AWS S3 vẫn còn nhiều tính năng nữa và với chừng ấy dịch vụ trên cũng đã đủ đáp ứng được được nhu cầu của tất cả khách hàng, dù khó tính nhất.</p>
+
+          </div>
+
+        </article>
+        <div class="blog-single-presentation">
+          <ul>
+            
+            <li> <a href="/posts/the-real-truth-about-trader/" class="tag">PREVIOUS</a>
+              <a href="/posts/the-real-truth-about-trader/" class="title">
+                Sự thật về nghề đầu cơ
+              </a>
+              <i class="fa fa-clock-o"></i>
+              October 19, 2022 - 1 hour
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    </div>
+    
+
+
+
+<section class="instagram">
+  <a href="http://www.instagram.com/mary_astor" target="_blank">
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <span>@Jonathan</span>
+  </a>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="instagram-item">
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-1.png" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-2.png" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-3.png" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-4.png" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-5.png" alt="image">
+          </div>
+          
+          <div class="instagram-item-thum">
+            <img src="https://bicolor.com/images/blog/case-studies-6.png" alt="image">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <div class="footer-logo">
+          <img width="80" src=https://bicolor.com/images/concerns/logo.png alt="logo" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="footer-nav">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://bicolor.com/">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://bicolor.com/about">About me</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://bicolor.com/contact">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="sociale-icon">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/mary_astor">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/mary_astor">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com/mary_astor">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="copy-right">
+          <p>© Copyright 2024 - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&libraries=geometry"></script>
+
+
+
+<script src="https://bicolor.com/js/vendor.min.js"></script>
+
+
+
+<script src="https://bicolor.com/js/script.min.js"></script>
+</body>
+
+</html>

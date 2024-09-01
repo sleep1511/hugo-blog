@@ -1,0 +1,45 @@
+baseURL = 'https://bicolor.com/'
+languageCode = "en-us"
+paginate = 6
+summarylength = 10
+title = "Blogge | Personal Blog Template"
+theme='blogge'
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url= ""
+    weight= 1
+  [[menu.main]]
+    name = "About me"
+    url= "about"
+    weight= 2
+  [[menu.main]]
+    name = "Contact"
+    url= "contact"
+    weight= 3
+
+[params]
+  repoName = '/bicolor.github.io'
+  summarylength = 80
+  smallLogo = "images/concerns/logo.png"
+  mediumLogo = "images/concerns/3e2723/logo-text.png"
+  largeLogo = "images/concerns/3e2723/logo-rectangle.png"
+  author = "Henry"
+  authorThumb = "images/author.jpg"
+  authorAddress = "Lorem 142 Str., 2352, Ipsum, State, USA"
+  authorPhone = "+33-257634 534"
+  instaUsername = "mary_astor"
+  facebookUsername = "mary_astor"
+  twitterUsername = "mary_astor"
+  linkedinUsername = "mary_astor"
+  blogTitle = "Articles"
+  blogSubTitle = "View the latest news on Blogger"
+  trendingBlogIcon = "images/blog/icon.svg"
+  # Replace the third party URL/API with yours
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabformURL  = "9AJk8ro"
+  googleMapAPI = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+
+[taxonomies]
+  tag = "tags"

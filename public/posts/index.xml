@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blogge | Personal Blog Template</title>
+    <link>https://bicolor.com/posts/</link>
+    <description>Recent content in Posts on Blogge | Personal Blog Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 08:17:26 +0700</lastBuildDate><atom:link href="https://bicolor.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Quick Overview AWS S3 Bucket</title>
+      <link>https://bicolor.com/posts/s3-overview/</link>
+      <pubDate>Fri, 11 Nov 2022 08:17:26 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/s3-overview/</guid>
+      <description>Chắc bạn đã làm việc và quá quen thuộc với AWS S3, bài viết này mong muốn giúp bạn overview lại kiến thức và có thể tối ưu chi phí hơn khi sử dụng với S3 AWS</description>
+    </item>
+    
+    <item>
+      <title>Sự thật về nghề đầu cơ</title>
+      <link>https://bicolor.com/posts/the-real-truth-about-trader/</link>
+      <pubDate>Wed, 19 Oct 2022 08:03:58 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/the-real-truth-about-trader/</guid>
+      <description>Trading là một nghề đau khổ&amp;hellip; Đầu cơ là mua vào với số lượng lớn, cực lớn với mục đích tạo sự khan hiếm, đẩy giá lên cao hơn nhiều lần so với giá lúc bình thường rồi bán.</description>
+    </item>
+    
+    <item>
+      <title>Bộ sách của Gyatso Rinpoche</title>
+      <link>https://bicolor.com/posts/review-book_gyatso-rinpoche-author/</link>
+      <pubDate>Sat, 15 Oct 2022 22:16:01 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/review-book_gyatso-rinpoche-author/</guid>
+      <description>coming soon</description>
+    </item>
+    
+    <item>
+      <title>Chiến tranh tiền tệ</title>
+      <link>https://bicolor.com/posts/review-book_chien-tranh-tien-te/</link>
+      <pubDate>Sat, 15 Oct 2022 22:13:34 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/review-book_chien-tranh-tien-te/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tiền đấu với vàng</title>
+      <link>https://bicolor.com/posts/review-book_tien-dau-voi-vang/</link>
+      <pubDate>Sat, 15 Oct 2022 22:13:15 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/review-book_tien-dau-voi-vang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuỳ chỉnh Shopify theme</title>
+      <link>https://bicolor.com/posts/basic-shopify-theme-customize/</link>
+      <pubDate>Sat, 15 Oct 2022 21:58:18 +0700</pubDate>
+      
+      <guid>https://bicolor.com/posts/basic-shopify-theme-customize/</guid>
+      <description>Shopify là một nền tảng economic tuyệt vời, hổ trợ sẵn nhiều công cụ, support tận răng, nhưng UI mặc định thì đơn giản quá của đơn giản 🤣.</description>
+    </item>
+    
+    <item>
+      <title>Personal post</title>
+      <link>https://bicolor.com/posts/my-personal-post/</link>
+      <pubDate>Wed, 13 Jan 2021 19:10:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/my-personal-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Officel first post</title>
+      <link>https://bicolor.com/posts/officel-first-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:30:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/officel-first-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>New blog post</title>
+      <link>https://bicolor.com/posts/new-blog-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:20:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/new-blog-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Breaking news post</title>
+      <link>https://bicolor.com/posts/breaking-news-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:11:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/breaking-news-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>My blog post</title>
+      <link>https://bicolor.com/posts/my-blog-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:50 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/my-blog-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>2nd blog post</title>
+      <link>https://bicolor.com/posts/2nd-blog-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/2nd-blog-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Today&#39;s new post</title>
+      <link>https://bicolor.com/posts/today-new-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:40 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/today-new-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>My new post</title>
+      <link>https://bicolor.com/posts/my-new-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:30 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/my-new-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Officel post</title>
+      <link>https://bicolor.com/posts/officel-post/</link>
+      <pubDate>Wed, 13 Jan 2021 18:10:30 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/officel-post/</guid>
+      <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to My Personal Blog</title>
+      <link>https://bicolor.com/posts/welcome-to-my-personal-blog/</link>
+      <pubDate>Wed, 13 Jan 2021 17:33:14 +0600</pubDate>
+      
+      <guid>https://bicolor.com/posts/welcome-to-my-personal-blog/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+  </channel>
+</rss>
