@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shopify on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/tags/shopify/</link>
+    <link>https://bicolor.netlify.app/tags/shopify/</link>
     <description>Recent content in shopify on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Oct 2022 21:58:18 +0700</lastBuildDate><atom:link href="https://bicolor.com/tags/shopify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2022 21:58:18 +0700</lastBuildDate><atom:link href="https://bicolor.netlify.app/tags/shopify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tuỳ chỉnh Shopify theme</title>
-      <link>https://bicolor.com/posts/basic-shopify-theme-customize/</link>
+      <link>https://bicolor.netlify.app/posts/basic-shopify-theme-customize/</link>
       <pubDate>Sat, 15 Oct 2022 21:58:18 +0700</pubDate>
       
-      <guid>https://bicolor.com/posts/basic-shopify-theme-customize/</guid>
+      <guid>https://bicolor.netlify.app/posts/basic-shopify-theme-customize/</guid>
       <description>Shopify là một nền tảng economic tuyệt vời, hổ trợ sẵn nhiều công cụ, support tận răng, nhưng UI mặc định thì đơn giản quá của đơn giản 🤣.</description>
     </item>
     

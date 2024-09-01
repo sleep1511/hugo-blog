@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>finance on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/tags/finance/</link>
+    <link>https://bicolor.netlify.app/tags/finance/</link>
     <description>Recent content in finance on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2022 08:03:58 +0700</lastBuildDate><atom:link href="https://bicolor.com/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Oct 2022 08:03:58 +0700</lastBuildDate><atom:link href="https://bicolor.netlify.app/tags/finance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sự thật về nghề đầu cơ</title>
-      <link>https://bicolor.com/posts/the-real-truth-about-trader/</link>
+      <link>https://bicolor.netlify.app/posts/the-real-truth-about-trader/</link>
       <pubDate>Wed, 19 Oct 2022 08:03:58 +0700</pubDate>
       
-      <guid>https://bicolor.com/posts/the-real-truth-about-trader/</guid>
+      <guid>https://bicolor.netlify.app/posts/the-real-truth-about-trader/</guid>
       <description>Trading là một nghề đau khổ&amp;hellip; Đầu cơ là mua vào với số lượng lớn, cực lớn với mục đích tạo sự khan hiếm, đẩy giá lên cao hơn nhiều lần so với giá lúc bình thường rồi bán.</description>
     </item>
     

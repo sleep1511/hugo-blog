@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>travel on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/tags/travel/</link>
+    <link>https://bicolor.netlify.app/tags/travel/</link>
     <description>Recent content in travel on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jan 2021 19:10:40 +0600</lastBuildDate><atom:link href="https://bicolor.com/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 19:10:40 +0600</lastBuildDate><atom:link href="https://bicolor.netlify.app/tags/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal post</title>
-      <link>https://bicolor.com/posts/my-personal-post/</link>
+      <link>https://bicolor.netlify.app/posts/my-personal-post/</link>
       <pubDate>Wed, 13 Jan 2021 19:10:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/posts/my-personal-post/</guid>
+      <guid>https://bicolor.netlify.app/posts/my-personal-post/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>New blog post</title>
-      <link>https://bicolor.com/posts/new-blog-post/</link>
+      <link>https://bicolor.netlify.app/posts/new-blog-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:20:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/posts/new-blog-post/</guid>
+      <guid>https://bicolor.netlify.app/posts/new-blog-post/</guid>
       <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Today&#39;s new post</title>
-      <link>https://bicolor.com/posts/today-new-post/</link>
+      <link>https://bicolor.netlify.app/posts/today-new-post/</link>
       <pubDate>Wed, 13 Jan 2021 18:10:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/posts/today-new-post/</guid>
+      <guid>https://bicolor.netlify.app/posts/today-new-post/</guid>
       <description>consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Welcome to My Personal Blog</title>
-      <link>https://bicolor.com/posts/welcome-to-my-personal-blog/</link>
+      <link>https://bicolor.netlify.app/posts/welcome-to-my-personal-blog/</link>
       <pubDate>Wed, 13 Jan 2021 17:33:14 +0600</pubDate>
       
-      <guid>https://bicolor.com/posts/welcome-to-my-personal-blog/</guid>
+      <guid>https://bicolor.netlify.app/posts/welcome-to-my-personal-blog/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     

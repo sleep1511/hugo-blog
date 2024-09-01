@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/about/</link>
+    <link>https://bicolor.netlify.app/about/</link>
     <description>Recent content in About me on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bicolor.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://bicolor.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

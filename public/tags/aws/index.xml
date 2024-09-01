@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWS on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/tags/aws/</link>
+    <link>https://bicolor.netlify.app/tags/aws/</link>
     <description>Recent content in AWS on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Nov 2022 08:17:26 +0700</lastBuildDate><atom:link href="https://bicolor.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 08:17:26 +0700</lastBuildDate><atom:link href="https://bicolor.netlify.app/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Quick Overview AWS S3 Bucket</title>
-      <link>https://bicolor.com/posts/s3-overview/</link>
+      <link>https://bicolor.netlify.app/posts/s3-overview/</link>
       <pubDate>Fri, 11 Nov 2022 08:17:26 +0700</pubDate>
       
-      <guid>https://bicolor.com/posts/s3-overview/</guid>
+      <guid>https://bicolor.netlify.app/posts/s3-overview/</guid>
       <description>Chắc bạn đã làm việc và quá quen thuộc với AWS S3, bài viết này mong muốn giúp bạn overview lại kiến thức và có thể tối ưu chi phí hơn khi sử dụng với S3 AWS</description>
     </item>
     

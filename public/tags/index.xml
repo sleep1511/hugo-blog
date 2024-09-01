@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blogge | Personal Blog Template</title>
-    <link>https://bicolor.com/tags/</link>
+    <link>https://bicolor.netlify.app/tags/</link>
     <description>Recent content in Tags on Blogge | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Nov 2022 08:17:26 +0700</lastBuildDate><atom:link href="https://bicolor.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 08:17:26 +0700</lastBuildDate><atom:link href="https://bicolor.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS</title>
-      <link>https://bicolor.com/tags/aws/</link>
+      <link>https://bicolor.netlify.app/tags/aws/</link>
       <pubDate>Fri, 11 Nov 2022 08:17:26 +0700</pubDate>
       
-      <guid>https://bicolor.com/tags/aws/</guid>
+      <guid>https://bicolor.netlify.app/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>finance</title>
-      <link>https://bicolor.com/tags/finance/</link>
+      <link>https://bicolor.netlify.app/tags/finance/</link>
       <pubDate>Wed, 19 Oct 2022 08:03:58 +0700</pubDate>
       
-      <guid>https://bicolor.com/tags/finance/</guid>
+      <guid>https://bicolor.netlify.app/tags/finance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tôn giáo</title>
-      <link>https://bicolor.com/tags/t%C3%B4n-gi%C3%A1o/</link>
+      <link>https://bicolor.netlify.app/tags/t%C3%B4n-gi%C3%A1o/</link>
       <pubDate>Sat, 15 Oct 2022 22:16:01 +0700</pubDate>
       
-      <guid>https://bicolor.com/tags/t%C3%B4n-gi%C3%A1o/</guid>
+      <guid>https://bicolor.netlify.app/tags/t%C3%B4n-gi%C3%A1o/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tài chính</title>
-      <link>https://bicolor.com/tags/t%C3%A0i-ch%C3%ADnh/</link>
+      <link>https://bicolor.netlify.app/tags/t%C3%A0i-ch%C3%ADnh/</link>
       <pubDate>Sat, 15 Oct 2022 22:13:34 +0700</pubDate>
       
-      <guid>https://bicolor.com/tags/t%C3%A0i-ch%C3%ADnh/</guid>
+      <guid>https://bicolor.netlify.app/tags/t%C3%A0i-ch%C3%ADnh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shopify</title>
-      <link>https://bicolor.com/tags/shopify/</link>
+      <link>https://bicolor.netlify.app/tags/shopify/</link>
       <pubDate>Sat, 15 Oct 2022 21:58:18 +0700</pubDate>
       
-      <guid>https://bicolor.com/tags/shopify/</guid>
+      <guid>https://bicolor.netlify.app/tags/shopify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>travel</title>
-      <link>https://bicolor.com/tags/travel/</link>
+      <link>https://bicolor.netlify.app/tags/travel/</link>
       <pubDate>Wed, 13 Jan 2021 19:10:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/tags/travel/</guid>
+      <guid>https://bicolor.netlify.app/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>office</title>
-      <link>https://bicolor.com/tags/office/</link>
+      <link>https://bicolor.netlify.app/tags/office/</link>
       <pubDate>Wed, 13 Jan 2021 18:30:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/tags/office/</guid>
+      <guid>https://bicolor.netlify.app/tags/office/</guid>
       <description></description>
     </item>
     
     <item>
       <title>news</title>
-      <link>https://bicolor.com/tags/news/</link>
+      <link>https://bicolor.netlify.app/tags/news/</link>
       <pubDate>Wed, 13 Jan 2021 18:11:40 +0600</pubDate>
       
-      <guid>https://bicolor.com/tags/news/</guid>
+      <guid>https://bicolor.netlify.app/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>0ffice</title>
-      <link>https://bicolor.com/tags/0ffice/</link>
+      <link>https://bicolor.netlify.app/tags/0ffice/</link>
       <pubDate>Wed, 13 Jan 2021 18:10:30 +0600</pubDate>
       
-      <guid>https://bicolor.com/tags/0ffice/</guid>
+      <guid>https://bicolor.netlify.app/tags/0ffice/</guid>
       <description></description>
     </item>
     
