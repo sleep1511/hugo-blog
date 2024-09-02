@@ -1,8 +1,8 @@
 ---
 title: "Sự thật về nghề đầu cơ"
 date: 2022-10-19T08:03:58+07:00
-tags: "finance"
-categories: "finance"
+tags: "Đầu Cơ"
+categories: "Đầu Cơ"
 tranding: false
 readTime: "1 hour"
 thumbnail: /images/blog/the-real-truth-about-trader/thum.png

@@ -35,7 +35,7 @@ theme='blogge'
   linkedinUsername = "mary_astor"
   blogTitle = "Articles"
   blogSubTitle = "View the latest news on Blogger"
-  trendingBlogIcon = "images/blog/icon.svg"
+  trendingBlogIcon = "images/blog/cat-foot.png"
   # Replace the third party URL/API with yours
   # We're using formspree.io for form handling, paste your formspree url below
   fabformURL  = "9AJk8ro"

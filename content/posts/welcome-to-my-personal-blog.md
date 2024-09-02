@@ -1,5 +1,5 @@
 ---
-  title: "Welcome to My Personal Blog"
+  title: "Nếu không viết tớ sẽ quên"
   date: 2021-01-13T17:33:14+06:00
   featured: true
   tags: "travel"

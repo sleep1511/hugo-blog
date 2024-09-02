@@ -7,3 +7,4 @@ tranding: false
 readTime: "15 min"
 ---
 
+Tớ khuyên các bạn đừng bao giờ giao dịch với một tài khoản quá nhỏ
